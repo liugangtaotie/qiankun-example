@@ -12,6 +12,11 @@ const microApps = [
     activeRule: '/sub-one'
   },
   {
+    name: 'sub-two',
+    entry: process.env.VUE_APP_SUB_TWO,
+    activeRule: '/sub-two'
+  },
+  {
     name: 'sub-react',
     entry: process.env.VUE_APP_SUB_REACT,
     activeRule: '/sub-react'
