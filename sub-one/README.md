@@ -1,4 +1,4 @@
-# sub-vue
+# sub-one
 
 ## Project setup
 
