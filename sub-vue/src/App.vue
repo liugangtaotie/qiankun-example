@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <div id="nav">
-      <router-link to="/">Home1</router-link> |
+      <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link> |
       <a href="#" @click="gotoSubReact" style="marin: 0 0 0 10px">跳转到sub-react</a>
     </div>
