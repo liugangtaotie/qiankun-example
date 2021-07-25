@@ -13,7 +13,7 @@ module.exports = {
     }
   },
   devServer: {
-    port: process.env.VUE_ONE_APP_PORT,
+    port: 7755,
     headers: {
       'Access-Control-Allow-Origin': '*'
     }
