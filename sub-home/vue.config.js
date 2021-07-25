@@ -3,7 +3,7 @@ const merge = require("webpack-merge");
 const { name } = require("../package.json");
 
 module.exports = {
-  publicPath: "/subapp/sub-three",
+  publicPath: "/subapp/sub-home",
   transpileDependencies: ["common"],
   configureWebpack: {
     output: {
@@ -26,10 +26,7 @@ module.exports = {
           // 直接覆盖变量
           // 'tabs-default-color': 'blue',
           // 或者可以通过 less 文件覆盖（文件路径为绝对路径）
-          hack: `true; @import "${path.join(
-            __dirname,
-            "./src/assets/css/theme.less"
-          )}"`,
+          hack: `true; @import "${path.join(__dirname, "./src/assets/css/theme.less")}"`,
         },
       },
     },

@@ -1,4 +1,4 @@
-# sub-three
+# sub-home
 
 ## Project setup
 ```
