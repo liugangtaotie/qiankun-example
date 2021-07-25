@@ -2,30 +2,30 @@ import store from './store'
 
 const microApps = [
   {
-    name: 'sub-vue',
-    entry: process.env.VUE_APP_SUB_VUE,
-    activeRule: '/sub-vue'
-  },
-  {
     name: 'sub-three',
     entry: process.env.VUE_APP_SUB_THREE,
     activeRule: '/sub-three'
-  },
-  {
-    name: 'sub-one',
-    entry: process.env.VUE_APP_SUB_ONE,
-    activeRule: '/sub-one'
-  },
-  {
-    name: 'sub-two',
-    entry: process.env.VUE_APP_SUB_TWO,
-    activeRule: '/sub-two'
-  },
-  {
-    name: 'sub-react',
-    entry: process.env.VUE_APP_SUB_REACT,
-    activeRule: '/sub-react'
   }
+  // {
+  //   name: 'sub-vue',
+  //   entry: process.env.VUE_APP_SUB_VUE,
+  //   activeRule: '/sub-vue'
+  // }
+  // {
+  //   name: 'sub-one',
+  //   entry: process.env.VUE_APP_SUB_ONE,
+  //   activeRule: '/sub-one'
+  // },
+  // {
+  //   name: 'sub-two',
+  //   entry: process.env.VUE_APP_SUB_TWO,
+  //   activeRule: '/sub-two'
+  // },
+  // {
+  //   name: 'sub-react',
+  //   entry: process.env.VUE_APP_SUB_REACT,
+  //   activeRule: '/sub-react'
+  // }
 ]
 
 const apps = microApps.map(item => {
